@@ -5,12 +5,12 @@ main ()
 {
   int num, a;
 
-  printf ("Digite o nC:mero desejado:\n");
+  printf ("Digite o numero desejado:\n");
   scanf ("%d", &num);
 
   if (num <= 1)
     {
-      printf ("%d nC#o C) primo\n", num);
+      printf ("%d nao eh primo\n", num);
     }
   else
     {
@@ -18,11 +18,11 @@ main ()
 	{
 	  if (num % a == 0)
 	    {
-	      printf ("%d nC#o C) primo\n", num);
+	      printf ("%d nao eh primo\n", num);
 	      return 0;
 	    }
 	}
-      printf ("%d C) primo!\n", num);
+      printf ("%d eh primo!\n", num);
     }
   return 0;
 }
